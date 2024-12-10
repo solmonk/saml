@@ -73,7 +73,7 @@ UzreO96WzlBBMtY=
 
 func main() {
 	logr := logger.DefaultLogger
-	baseURLstr := flag.String("idp", "", "The URL to the IDP")
+  baseURLstr := flag.String("idp", "http://localhost:8000", "The URL to the IDP")
 	flag.Parse()
 
 	baseURL, err := url.Parse(*baseURLstr)

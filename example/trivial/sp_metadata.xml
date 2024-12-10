@@ -1,0 +1,26 @@
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2024-12-12T05:47:20.729Z" entityID="http://localhost:8080/saml/metadata">
+  <SPSSODescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" validUntil="2024-12-12T05:47:20.728549Z" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <KeyDescriptor use="encryption">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <X509Certificate xmlns="http://www.w3.org/2000/09/xmldsig#">MIIDITCCAgmgAwIBAgIUaEo6O5DWRzTFheGynb3j35XGKZwwDQYJKoZIhvcNAQELBQAwIDEeMBwGA1UEAwwVbXlzZXJ2aWNlLmV4YW1wbGUuY29tMB4XDTI0MTIxMDA1NDEzMFoXDTI1MTIxMDA1NDEzMFowIDEeMBwGA1UEAwwVbXlzZXJ2aWNlLmV4YW1wbGUuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxj5gIaVZUN8eZvYY6M0gEk8SDe0Sn3VHVn5weeyrXuAipdX9b/i/gTwHpChhuP0GjPiOsva8rINkQhMkJ5FYi1P/8I98UYR9BWfCZKcF1Dy980wFMvJkcqMzRhrwtsxg5LwXAgc+7xldGbL1JoTLruonpk13DTeZ7HDXbogXzAc5qwmYdDiPhpUhKpAYHiZpo/V4lWCuTXF5nPih9qsLq3pSaMfdVhIuhzrt4EcdecdXG/W48y3df7jtGHMSDcH3Ex2CsBbh324tphjr32AbpdBiihdsFI7sAAS/ufNcP0O4KiOYmpY02DRhG4czRn/qO16RCexX0zxPhdcNEUtHAQIDAQABo1MwUTAdBgNVHQ4EFgQU4GC3TovmoE0z95QnMUcm4PrbF/8wHwYDVR0jBBgwFoAU4GC3TovmoE0z95QnMUcm4PrbF/8wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAF6K+q5nnRoPuaUMBuUssBazSGAK5b6++91A7HSRoPn5TqNoDpNMDCCjWx2EbWDniBQhjyS2GPMnD4rz0my2023IXPf2gldJ0XznVfM74soo9jR2ratsFmhhmQhAAkN243X2AFKs3pYj0xm+BTEKeN3qc+uPqGmQreTPHQDRrDLi0ml8At6AYOKsE1eLwVohO3JBqJ9aoEAFX4a7VIRKW7UW/YT78nZhZd2Uar6xgQuAIFDpstjJfYnXr2OQtf9Xx6fNmUXGfWEOUGGolHjQKGNNJzLcBphdztvLA7UvgUi9m3PMvBZo109BQl+rQQU5xaiLXVbSb8fgp2ZGdi9weJw==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"></EncryptionMethod>
+      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes192-cbc"></EncryptionMethod>
+      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc"></EncryptionMethod>
+      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"></EncryptionMethod>
+    </KeyDescriptor>
+    <KeyDescriptor use="signing">
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <X509Data xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <X509Certificate xmlns="http://www.w3.org/2000/09/xmldsig#">MIIDITCCAgmgAwIBAgIUaEo6O5DWRzTFheGynb3j35XGKZwwDQYJKoZIhvcNAQELBQAwIDEeMBwGA1UEAwwVbXlzZXJ2aWNlLmV4YW1wbGUuY29tMB4XDTI0MTIxMDA1NDEzMFoXDTI1MTIxMDA1NDEzMFowIDEeMBwGA1UEAwwVbXlzZXJ2aWNlLmV4YW1wbGUuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxj5gIaVZUN8eZvYY6M0gEk8SDe0Sn3VHVn5weeyrXuAipdX9b/i/gTwHpChhuP0GjPiOsva8rINkQhMkJ5FYi1P/8I98UYR9BWfCZKcF1Dy980wFMvJkcqMzRhrwtsxg5LwXAgc+7xldGbL1JoTLruonpk13DTeZ7HDXbogXzAc5qwmYdDiPhpUhKpAYHiZpo/V4lWCuTXF5nPih9qsLq3pSaMfdVhIuhzrt4EcdecdXG/W48y3df7jtGHMSDcH3Ex2CsBbh324tphjr32AbpdBiihdsFI7sAAS/ufNcP0O4KiOYmpY02DRhG4czRn/qO16RCexX0zxPhdcNEUtHAQIDAQABo1MwUTAdBgNVHQ4EFgQU4GC3TovmoE0z95QnMUcm4PrbF/8wHwYDVR0jBBgwFoAU4GC3TovmoE0z95QnMUcm4PrbF/8wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAF6K+q5nnRoPuaUMBuUssBazSGAK5b6++91A7HSRoPn5TqNoDpNMDCCjWx2EbWDniBQhjyS2GPMnD4rz0my2023IXPf2gldJ0XznVfM74soo9jR2ratsFmhhmQhAAkN243X2AFKs3pYj0xm+BTEKeN3qc+uPqGmQreTPHQDRrDLi0ml8At6AYOKsE1eLwVohO3JBqJ9aoEAFX4a7VIRKW7UW/YT78nZhZd2Uar6xgQuAIFDpstjJfYnXr2OQtf9Xx6fNmUXGfWEOUGGolHjQKGNNJzLcBphdztvLA7UvgUi9m3PMvBZo109BQl+rQQU5xaiLXVbSb8fgp2ZGdi9weJw==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8080/saml/slo" ResponseLocation="http://localhost:8080/saml/slo"></SingleLogoutService>
+    <NameIDFormat></NameIDFormat>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8080/saml/acs" index="1"></AssertionConsumerService>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="http://localhost:8080/saml/acs" index="2"></AssertionConsumerService>
+  </SPSSODescriptor>
+</EntityDescriptor>

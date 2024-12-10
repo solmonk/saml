@@ -18,7 +18,7 @@ import (
 var samlMiddleware *samlsp.Middleware
 
 func hello(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello, %s!", samlsp.AttributeFromContext(r.Context(), "displayName"))
+	fmt.Fprintf(w, "Hello, %s!", samlsp.AttributeFromContext(r.Context(), "givenName"))
 }
 
 func logout(w http.ResponseWriter, r *http.Request) {
@@ -47,7 +47,7 @@ func main() {
 		panic(err) // TODO handle error
 	}
 
-	idpMetadataURL, err := url.Parse("https://samltest.id/saml/idp")
+	idpMetadataURL, err := url.Parse("http://localhost:8000/metadata")
 	if err != nil {
 		panic(err) // TODO handle error
 	}
@@ -57,7 +57,7 @@ func main() {
 		panic(err) // TODO handle error
 	}
 
-	rootURL, err := url.Parse("http://localhost:8000")
+	rootURL, err := url.Parse("http://localhost:8080")
 	if err != nil {
 		panic(err) // TODO handle error
 	}
